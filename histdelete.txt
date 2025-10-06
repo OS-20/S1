@@ -1,0 +1,1 @@
+history -c && rm ~/.bash_history && touch ~/.bash_history
