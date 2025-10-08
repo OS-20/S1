@@ -1,1 +1,4 @@
 history -c && rm ~/.bash_history && touch ~/.bash_history
+
+echo 'blacklist usb_storage' | sudo tee /etc/modprobe.d/blacklist-usb-storage.conf
+
